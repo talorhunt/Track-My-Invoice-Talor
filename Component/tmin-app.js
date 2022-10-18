@@ -7,7 +7,8 @@ class Component extends LitElement {
     render() {
         return HTML`
         <div>
-            <value-counter label="cookies" count="3"></value-counter>
+            <value-counter label="Cookies" count="3"></value-counter>
+            <value-counter label="Milk" count="-3"></value-counter>
         </div>
         `; 
     }
